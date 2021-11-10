@@ -1,28 +1,28 @@
 {
-    "agents": [
-		{
-			"self": {
-                "agent_id":"C0000000",
-                "stream_ids" : ["control0", "video0", "primary0"]
-            },
-			"peers":[
-				{
-					"agent_id": "S0000000",
-					"stream_ids": ["control0", "video0", "primary0"]
-				}
-			]
-		},
-        {
-            "self": {
-			    "agent_id":"S0000000",
-                "stream_ids" : ["control0", "video0", "primary0"]
-            },
-			"peers":[
-				{
-					"agent_id": "C0000000",
-					"stream_ids": ["control0", "video0", "primary0"]
-				}
-			]
-		}
-    ]
+    "agents":	[
+	    		{
+				"self": {
+                				"agent_id":"C0000000",
+                				"stream_ids" : ["control0", "video0", "primary0"]
+            				},
+				"peers":[
+						{
+							"agent_id": "S0000000",
+							"stream_ids": ["control0", "video0", "primary0"]
+						}
+					]
+			},
+        		{
+            			"self": {
+			    			"agent_id":"S0000000",
+                				"stream_ids" : ["control0", "video0", "primary0"]
+            				},
+				"peers":[
+						{
+							"agent_id": "C0000000",
+							"stream_ids": ["control0", "video0", "primary0"]
+						}
+					]
+			}
+    		]
 }

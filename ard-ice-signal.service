@@ -1,0 +1,11 @@
+[Unit]
+Description=ARD ICE Signalling server
+
+[Service]
+WorkingDirectory=/usr/bin
+ExecStart=/usr/bin/ard-ice-signal
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
